@@ -3,7 +3,7 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 ## edit below variables as per your requirements -
-REPO_NAME = "TWEETS_SENTIMENT"
+REPO_NAME = "IMDB_Review_Sentiment"
 AUTHOR_USER_NAME = "Neeraj Bafila"
 SRC_REPO = "src"
 LIST_OF_REQUIREMENTS = []
@@ -13,7 +13,7 @@ setup(
     name=SRC_REPO,
     version="0.0.1",
     author=AUTHOR_USER_NAME,
-    description="Used for finding TWEETS SENTIMENT",
+    description="Used for finding IMDB Review SENTIMENT",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
