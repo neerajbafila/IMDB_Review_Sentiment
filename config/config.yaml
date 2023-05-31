@@ -1,0 +1,16 @@
+Logger: 
+      log_file_name: logs
+      log_location: Log
+
+Data:
+      root_data_folder: Data
+      imdb_data_folder: IMDB_DATA
+      dataset_name: imdb_reviews
+
+MODEL_BASE_LOG_DIR: Tensorboard_Logs
+
+TRAINED_MODEL_DIR: models
+CHECKPOINT_DIR: ckpt
+TB_ROOT_LOG_DIR: tb_log_dir
+
+
