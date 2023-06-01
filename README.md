@@ -36,8 +36,12 @@ pip install -e .
 ```
 conda env export > conda.yaml 
 ```
-## To run ml project from local
+## To run entire training pipeline with sample prediction from local machine
 
 ```
 mlflow run . --env-manager local
+```
+## To run Flask app from local run app.py
+```
+python src/app.py
 ```
