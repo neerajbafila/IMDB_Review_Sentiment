@@ -16,3 +16,9 @@ entry_points:
             config_path: {type: str, default: "config/config.yaml"} 
             params: {type: str, default: "config/params.yaml"}
         command: "python src/stage_02_model_creation.py --config {config_path} --params {params}"
+    
+    model_training:
+        parameters:
+            config_path: {type: str, default: "config/config.yaml"} 
+            params: {type: str, default: "config/params.yaml"}
+        command: "python src/stage_03_model_training.py --config {config_path} --params {params}"

@@ -12,5 +12,8 @@ MODEL_BASE_LOG_DIR: Tensorboard_Logs
 TRAINED_MODEL_DIR: models
 CHECKPOINT_DIR: ckpt
 TB_ROOT_LOG_DIR: tb_log_dir
+History_dir: history
+Training_data_plot: training_data_plot
+Models_dir: models
 
 

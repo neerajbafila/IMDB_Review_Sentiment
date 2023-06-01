@@ -134,3 +134,9 @@ dmypy.json
 Data/IMDB_DATA
 Log/
 
+Tensorboard_Logs/ckpt/
+Tensorboard_Logs/tb_log_dir/
+Tensorboard_Logs/ckpt - 10_ephochs/
+history/
+Tensorboard_Logs/models/
+Tensorboard_Logs/models _10_epohcs/

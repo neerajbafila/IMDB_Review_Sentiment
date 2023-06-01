@@ -3,3 +3,10 @@ BATCH_SIZE: 64
 VOCAB_SIZE: 1000
 OUTPUT_DIM: 64
 EPOCHS: 10
+
+optimizer: 
+  class_name: RMSprop
+  config:
+    learning_rate: 0.001
+loss: BinaryCrossentropy
+metrics: ['accuracy']

@@ -72,7 +72,6 @@ if __name__ == "__main__":
     try:
         ob_model = Create_model(parsed_arg.config, parsed_arg.params)
         model = ob_model.bulid_model()
-        print(model.summary())
         logs.write_log(f'model created successfully')
     except Exception as e:
         logs.write_exception(e)
